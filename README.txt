@@ -96,19 +96,7 @@ can't think of any splashes to add, try "Check it out!" and "Join the Crew!" and
 8. Go back to your forum's index page and injoy. Don't forget to tell me what you think!
 
 
-CHANGELOG
-------------------------------------------------------------
 
-1.0
--created splash.php
--created edit.php page, that is password protected by secure.php.
--self creating the text file needed for the splashes.
--created file.php to take a random splash from a text file.
-
-TODO
-------------------------------------------------------------
-
-Add setting in Admin CP such as changing font.
 
 
 
