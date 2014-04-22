@@ -1,0 +1,2 @@
+MyBB-Splash-Plugin
+==================
