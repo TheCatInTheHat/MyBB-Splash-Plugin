@@ -1,0 +1,8 @@
+CHANGELOG
+------------------------------------------------------------
+
+1.0
+-created splash.php
+-created edit.php page, that is password protected by secure.php.
+-self creating the text file needed for the splashes.
+-created file.php to take a random splash from a text file.
