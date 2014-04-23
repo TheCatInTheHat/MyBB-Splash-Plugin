@@ -3,7 +3,7 @@
  * MyBB 1.6
  * 
  *
- * Website: 
+ * Website: https://github.com/TheCatInTheHat/MyBB-Splash-Plugin/
  * License: GNU General Public License
  *
  * $Id: 
@@ -24,9 +24,9 @@ function splash_info()
 	return array(
 		"name"			=> "Splashes!",
 		"description"	=> "Prints random phrases on the index page of a forum. Still in development, but fully functional.",
-		"website"		=> "http://writerswanted.byethost13.com",
+		"website"		=> "https://github.com/TheCatInTheHat/MyBB-Splash-Plugin/",
 		"author"		=> "Elf Blade",
-		"authorsite"	=> "http://mybb.com",
+		"authorsite"	=> "http://writerswanted.byethost13.com",
 		"version"		=> "1.0",
 		"guid" 			=> "f91996af6732b5a63f676ab8034e87d2",
 		"compatibility" => "16*"
