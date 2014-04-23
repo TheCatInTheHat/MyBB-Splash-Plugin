@@ -34,7 +34,9 @@ function splash_info()
 }
 
 
- 
+ function splash_install()
+ {
+ }
 
 
 
@@ -43,7 +45,7 @@ function splash_info()
 function hello_world($page)
 {
 	
-	$page = str_replace("a_b_c_d", "<iframe src='http://www.writerswanted.byethost13.com/file.php', frameborder=0, sandbox=seamless, height=100px, width=400px, scrolling=no></iframe>", $page);
+	$page = str_replace("a_b_c_d", "<iframe src='/file.php', frameborder=0, sandbox=seamless, height=100px, width=400px, scrolling=no></iframe>", $page);
 
 	//$page = str_replace("<div id=\"content\">", "<div id=\"content\"><p id=\"splash_style\"></p>", $page);
 	return $page;
