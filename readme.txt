@@ -24,7 +24,11 @@ if($user == "admin"
 This is the information you will need to edit the splash file from the secure.php page. Change out the first "admin" for what you want 
 to be the username, then change out second "admin" for what you want the password to be. Don't forget to save the file.
 
-3. Install the contents of the Upload file into your forum's files at the designated points, but do not activate the plugin just yet.
+3. Install the contents of the Upload file into your forum's files as instructed below:
+
+		1. Put file.php, secure.php, and edit.php in the sites root files.
+		2. Put the splash.php file into inc/plugins file, along with all the other plugins.
+
 
 4. Go into your Admin CP, then go into Templates and Style. Once you're their click "Templates." In the templates section it will 
 list the templates used by your themes; click on the templates used by your forum's theme. Expand the "Index Page Templates," then go into "index."
@@ -96,7 +100,19 @@ can't think of any splashes to add, try "Check it out!" and "Join the Crew!" and
 8. Go back to your forum's index page and injoy. Don't forget to tell me what you think!
 
 
+CHANGELOG
+------------------------------------------------------------
 
+1.0
+-created splash.php
+-created edit.php page, that is password protected by secure.php.
+-self creating the text file needed for the splashes.
+-created file.php to take a random splash from a text file.
+
+TODO
+------------------------------------------------------------
+
+Add setting in Admin CP such as changing font.
 
 
 

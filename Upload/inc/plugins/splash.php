@@ -15,8 +15,8 @@ if(!defined("IN_MYBB"))
 	die("Direct initialization of this file is not allowed.<br /><br />Please make sure IN_MYBB is defined.");
 }
 
-$plugins->add_hook("pre_output_page", "hello_world");
-$plugins->add_hook("postbit", "hello_world_postbit");
+$plugins->add_hook("pre_output_page", "splash");
+//$plugins->add_hook("postbit", "hello_world_postbit");
 
 function splash_info()
 {
@@ -34,15 +34,11 @@ function splash_info()
 }
 
 
- function splash_install()
- {
- }
 
 
+//function hello_world($page)
 
-
-
-function hello_world($page)
+function splash($page)
 {
 	
 	$page = str_replace("a_b_c_d", "<iframe src='/file.php', frameborder=0, sandbox=seamless, height=150px, width=400px, scrolling=no></iframe>", $page);
@@ -51,8 +47,8 @@ function hello_world($page)
 	return $page;
 }
 
-function hello_world_postbit(&$post)
-{
+//function hello_world_postbit(&$post)
+//{
 	$post['message'] = "<strong></strong><br /><br />{$post['message']}";
-}
+//}
 ?>
