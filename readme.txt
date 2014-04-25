@@ -8,7 +8,6 @@ Version: 1.0
 Readme Date: 4/22/14
 Author: Elf Blade
 Contact author: blaisthinks98@gmail.com
-Note: This plugin will not work if the sample MyBB plugin "Hello World" is activated.
 
 INSTALLATION
 ------------------------------------------------------------
